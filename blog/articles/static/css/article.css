@@ -1,0 +1,232 @@
+
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+.header {
+    position: relative;
+    padding: 20px 0;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all-posts {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article .content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.article h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.article-info::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.article-text {
+    clear: both;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.one-post {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.create-post .content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-post h1 {
+    font-size: 32px;
+}
+
+.create-post form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-post input[type="text"],
+.create-post textarea {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.create-post textarea {
+    min-height: 300px;
+    resize: vertical;
+}
+
+.create-post input[type="submit"] {
+    align-self: flex-start;
+    padding: 10px 30px;
+    font-size: 16px;
+    background: #16a085;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-post input[type="submit"]:hover {
+    background: #ffffff;
+    color: #16a085;
+}
+
+.form-error {
+    color: #ffe0e0;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.header-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-links a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header-links a:hover {
+    opacity: 0.8;
+}
+
+.header-user {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-page .content {
+    width: 480px;
+    margin: 40px auto;
+}
+
+.auth-page h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.auth-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-page input[type="text"],
+.auth-page input[type="email"],
+.auth-page input[type="password"] {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.auth-page input[type="submit"] {
+    align-self: center;
+    padding: 10px 30px;
+    font-size: 16px;
+    background: #16a085;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-page input[type="submit"]:hover {
+    background: #ffffff;
+    color: #16a085;
+}
+
+.auth-switch {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.auth-switch a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.form-error {
+    color: #ffe0e0;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.one-post.folded .article-author,
+.one-post.folded .article-created-date,
+.one-post.folded .article-text {
+    display: none;
+}
